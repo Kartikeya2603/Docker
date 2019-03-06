@@ -1,4 +1,4 @@
-Oprn a Linux Machine 
+Open a Linux Machine 
 
 Install Docker 
 
