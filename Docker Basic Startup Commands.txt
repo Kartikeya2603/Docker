@@ -1,0 +1,54 @@
+Oprn a Linux Machine 
+
+Install Docker 
+
+
+
+uname -r
+will give info of OS (Kernal 3.10 above is good for docker)
+
+Install docker 
+
+sudo yum -y update
+sudo yum install -y docker
+
+
+
+To Check 
+
+docker --version 
+or 
+docker info 
+
+Start Docker 
+
+sudo service docker start
+
+docker Info - to check if its running 
+
+To add user 
+
+sudo usermod -a-G docker ec2-user(ec2-user, is the user name . So change accordingly)
+
+docker images 
+
+docker ps - to see all containers 
+
+docker run imagename - to run "imagename"
+
+if the image is not in the local it will check from global lib
+
+Stop docker  
+
+sudo service docker stop 
+
+
+Uninstall 
+
+sudo yum remove docker 
+
+
+ 
+
+
+
