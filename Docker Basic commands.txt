@@ -1,0 +1,31 @@
+Docker Basics 
+
+Basics
+
+>docker version 
+>docker -version
+>docker info
+>docker --help
+>docker login 
+
+__________________________________________
+
+Images 
+>docker images
+>docker pull
+>docker rmi 
+
+___________________________________________
+
+Containers
+>docker ps
+>docker run
+>docker start
+>docker stop
+
+___________________________________________
+
+System 
+>docker stats
+>docker system df
+>docker system prune
